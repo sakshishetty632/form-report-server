@@ -1,0 +1,6 @@
+spring.application.name=form-report-server
+
+spring.jackson.property-naming-strategy=SNAKE_CASE
+spring.data.mongodb.uri=${MONGODB_URI}
+spring.data.mongodb.database=${MONGODB_DATABASE}
+CLIENT_URL="https://form-report-client.vercel.app"
